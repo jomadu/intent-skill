@@ -1,0 +1,17 @@
+{
+  "name": "intent-skill",
+  "private": true,
+  "description": "Building-intent product/engineering documentation skill (Cursor Agent Skill)",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "commitlint": "commitlint --edit",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "conventional-changelog-conventionalcommits": "^9.0.0",
+    "husky": "^9.1.7",
+    "semantic-release": "^24.2.0"
+  }
+}
