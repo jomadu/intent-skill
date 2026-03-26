@@ -16,7 +16,8 @@ Canonical source in this repo: [`../ralph/building-intent.md`](../ralph/building
 
 | Path | Purpose |
 |------|---------|
-| `intent/SKILL.md` | Skill definition (building-intent methodology). |
+| `intent/SKILL.md` | Skill definition (building-intent methodology); `name` in frontmatter is `intent` (matches this directory per [Agent Skills](https://agentskills.io)). |
+| `intent/assets/*.md` | Document templates (load on demand; keeps `SKILL.md` lean). |
 | `docs/release-notes.md` | Where release notes live and how releases are produced. |
 | `.github/workflows/release.yml` | CI: commitlint on PR/push; semantic-release on push to release branches. |
 
