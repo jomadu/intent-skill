@@ -46,7 +46,7 @@ Canonical tree, simple vs complex, IDs: [`references/docs-layout.md`](references
 | Components under `components/` | [`references/workflow-components.md`](references/workflow-components.md) |
 | Editing existing docs / scope of CR | [`references/workflow-changes.md`](references/workflow-changes.md) |
 
-Supporting references: [`references/context-loading.md`](references/context-loading.md), [`references/consistency.md`](references/consistency.md), [`references/README.md`](references/README.md). JTBD framing: [`references/jtbd-primer.md`](references/jtbd-primer.md) (with [`assets/product-root-jtbd.md`](assets/product-root-jtbd.md)).
+Supporting references: [`references/context-loading.md`](references/context-loading.md), [`references/README.md`](references/README.md). Structural consistency is embedded in [`references/review-product.md`](references/review-product.md), [`references/review-engineering.md`](references/review-engineering.md), and [`references/review-change-records.md`](references/review-change-records.md). JTBD framing: [`references/jtbd-primer.md`](references/jtbd-primer.md) (with [`assets/product-root-jtbd.md`](assets/product-root-jtbd.md)).
 
 ## Authoring checklist (short)
 

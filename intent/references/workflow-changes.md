@@ -16,7 +16,7 @@ Use the checklist for the artifact type:
 - Engineering side: [`review-engineering.md`](review-engineering.md)
 - CR quality: [`review-change-records.md`](review-change-records.md)
 
-Structural consistency: [`consistency.md`](consistency.md).
+Structural consistency (vertical, horizontal, traceability) is covered in those review checklists—no separate consistency doc.
 
 ## Emit sub-step (PDR / ADR / CR)
 

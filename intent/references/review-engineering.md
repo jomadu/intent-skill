@@ -1,6 +1,12 @@
 # Review criteria — engineering tree
 
-Use for **AI review** and **second human review** after drafting. Pair with [`consistency.md`](consistency.md). **Language:** engineering docs use **precise technical language** where it helps; define terms on first use when needed; keep **shared terminology** aligned with product where concepts overlap.
+Use for **AI review** and **second human review** after drafting. **Language:** engineering docs use **precise technical language** where it helps; define terms on first use when needed; keep **shared terminology** aligned with product where concepts overlap.
+
+## Structural consistency (engineering tree)
+
+- **Vertical:** Child artifacts **support** parent promises (engineering root → components). Do not contradict product intent or a higher engineering level without an explicit **ADR**, **PDR** (when product intent shifts), or an **updated parent** artifact.
+- **Horizontal:** Sibling components **do not** overlap in mandate without intent and **do not** contradict each other.
+- **Traceability:** **New architectural decision** → **ADR**; **meaningful edits** → **CR** at the right scope ([`emit-records.md`](emit-records.md)). **Requirement ↔ component** mapping appears **only** as rows in **`docs/engineering/README.md`**—not duplicated as the authoritative list in requirement or component bodies ([`../assets/CONVENTIONS.md`](../assets/CONVENTIONS.md)).
 
 ## Engineering root README
 

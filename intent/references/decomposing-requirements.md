@@ -23,4 +23,4 @@ Before expanding full requirement documents, review the compressed layer as a se
 
 ## Review (requirement detail)
 
-After expanding files under `requirements/`, keep **vertical** consistency (each requirement matches its one-liner and parent outcome) and **horizontal** consistency across outcomes (no contradictory behaviors or incompatible assumptions). Apply the same bar to every requirement-detail pass under **`docs/product/outcomes/`**.
+After expanding files under `requirements/`, apply **Structural consistency (product tree)** in [`review-product.md`](review-product.md) (vertical: each requirement matches its one-liner and parent outcome; horizontal: no contradictory behaviors or incompatible assumptions across sibling requirements and outcomes). Apply the same bar to every requirement-detail pass under **`docs/product/outcomes/`**.

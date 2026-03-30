@@ -1,6 +1,12 @@
 # Review criteria — product tree
 
-Use for **AI review** and **second human review** after drafting. Pair with [`consistency.md`](consistency.md). **Language:** product-facing docs use **product language**—who, value, outcomes; **precise** where it helps; avoid undefined jargon. Do not leak implementation-heavy vocabulary into product-only sections where it would confuse intent.
+Use for **AI review** and **second human review** after drafting. **Language:** product-facing docs use **product language**—who, value, outcomes; **precise** where it helps; avoid undefined jargon. Do not leak implementation-heavy vocabulary into product-only sections where it would confuse intent.
+
+## Structural consistency (product tree)
+
+- **Vertical:** Child artifacts **support** parent promises (product root → outcomes → requirements). Do not contradict a higher level without an explicit **PDR** or an **updated parent** artifact.
+- **Horizontal:** Sibling outcomes and sibling requirements **do not** overlap in scope without intent, **do not** contradict each other, and **together** cover the parent’s intent where a complete set is required.
+- **Traceability:** **New product/strategic decision** → **PDR**; **meaningful edits** → **CR** at the right scope ([`emit-records.md`](emit-records.md)). Do **not** treat requirement files as the authoritative list of which components satisfy them—that mapping is **only** in **`docs/engineering/README.md`** ([`../assets/CONVENTIONS.md`](../assets/CONVENTIONS.md)).
 
 ## Product root README
 
